@@ -30,6 +30,14 @@ export const EIP155_MAINNET_CHAINS: Record<string, EIP155Chain> = {
     rpc: 'https://cloudflare-eth.com/',
     namespace: 'eip155'
   },
+  'eip155:100': {
+    chainId: 100,
+    name: 'Gnosis',
+    logo: '/chain-logos/eip155-100.png',
+    rgb: '99, 125, 234',
+    rpc: 'https://rpc.gnosischain.com',
+    namespace: 'eip155'
+  },
   'eip155:43114': {
     chainId: 43114,
     name: 'Avalanche C-Chain',
